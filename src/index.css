@@ -1,13 +1,14 @@
 :root {
     /* Colors */
     --primary-color: #c92071;
+    --p-primary-color: #c92071;
     --primary-color-hover: #991956;
     --secondary-color: #b5b6f2;
     --secondary-color-hover: #9fa0e5;
     --tertiary-color: #991956;
     --error-color: #ee4266;
     --success-color: #52ca76;
-    --warning-color: #f6aa1c;
+    --warning-color: #f6aa1c; 
 
     /* Grayscale */
     --dark-gray: #1f1f1f;
@@ -16,7 +17,7 @@
     --light-gray: #8f8f8f;
     --light-gray-2: #cccccc;
     --light-gray-3: #f5f5f5;
-    --white: #ffffff;
+    --white: #ffffff; 
 
 }
 
@@ -29,8 +30,7 @@
 
 .footer a:hover{
     color: var(--primary-color);
-}
-
+} 
 
 /* Customisando classes */
 
@@ -52,4 +52,8 @@
 
 .text-gray-300 {
     color: var(--light-gray-2) !important;
+}
+
+.text-gray {
+    color: var(--dark-gray) !important;
 }

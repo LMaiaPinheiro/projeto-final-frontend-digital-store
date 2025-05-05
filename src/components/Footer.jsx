@@ -1,18 +1,17 @@
-import { Link } from "react-router-dom"
 import Logo from "./Logo"
 
 import logoFooter from "../assets/logo-footer.svg";
 import logoIntagram from "../assets/instagram.svg";
 import logoFaceBook from "../assets/facebook.svg";
-import x from "../assets/twitter.svg";
+import logoTwitter from "../assets/twitter.svg";
 
 const Footer = () => {
     return (
         <footer className="footer" >
-            <div className="container mx-auto px-3 py-5">
+            <div className="container mx-auto px-3 py-3">
 
-                <div className="grid">
-                    <div className="col-12 lg:col-3 mb-4    lg:mb-0">
+                <div className="grid mx-6">
+                    <div className="col-12 lg:col-3 mb-4  lg:mb-0">
                         <Logo logo={logoFooter} />
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium a, tempore quibusdam officia asperiores dolore consectetur architecto odit exercitationem sint fuga, facere in nesciunt aut, reiciendis dicta doloremque aspernatur!</p>
@@ -26,7 +25,7 @@ const Footer = () => {
                                 <img src={logoFaceBook} alt="" />
                             </a>
                             <a href="#">
-                                <img src={x} alt="" />
+                                <img src={logoTwitter} alt="" />
                             </a>
 
                         </div>
@@ -130,7 +129,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className="border-top-1 border-gray-800 mt-4 pt-4 text-center">
+                <div className="border-top-1 border-gray-800 mt-2 pt-2 text-center">
                     <p className="text-gray-400 text-sm">&copy; 2023 Digital College</p>
                 </div>
             </div>
